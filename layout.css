@@ -1,0 +1,121 @@
+.landingpage {
+    display: grid;
+    grid-template-areas:"welcome"
+                        "featureseries"
+                        "sitespecial"
+                        "footer";
+    grid-template-rows: 100vh 100vh 100vh 30vh ;
+    grid-template-columns: auto;
+}   
+
+/* linear-gradient(1deg, #000000b0, transparent), */
+
+.welcome {
+    grid-area: welcome;
+    background-image: url(Guitar_images/G1_front.png), url(images/landingacoustic.png);
+    background-position: center, right;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, cover;
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    justify-content: space-between;      
+}
+
+.welcome_container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+}
+ 
+.featureseries {
+    grid-area: featureseries;
+    background-image:  url(images/featureacoustic.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.sitespecial {
+    grid-area: sitespecial;
+    background-image: radial-gradient(circle at 50% 50%, #d1ea3d, #94e514, #4fbf0d, #199708, #046e11, #014319, #00170e);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.overlay {
+    position: absolute;
+}
+
+.cluster {
+    display         : flex;
+    flex-wrap       : inherit;
+    justify-content : space-between;
+    align-items     : center;
+    flex-direction  : row;
+}
+
+.cluster > * {
+    margin: 0.5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position    : relative;
+    text-align  : center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    top     : 1rem;
+    left    : 1rem;
+    width   : 100%;
+    color   : var(--color-text-light);
+}
+
+.nav_home {
+    text-align: left;
+}
+
+.nav_nav_icons {
+    margin      : 0.8rem;
+    margin-right: 2rem;
+}
+
+.icon_size {
+    height  : 2rem;
+    width   : 2rem;
+}
+
+@media (max-width: 600px) {
+    .icon_size {
+        height  : 1.2rem;
+        width   : 1.2rem;
+    }
+}
+
+.guitar_image {
+    position: relative;
+}
+
+.homestatement {
+    align-content: flex-start;
+    color        : var(--color-text-light);
+}

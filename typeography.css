@@ -1,0 +1,68 @@
+@import url("https://use.typekit.net/kgy3gan.css");
+
+:root {
+
+    --font-primary: helvetica, serif;
+    --font-secondary: "span", serif; 
+
+    /* set base values */
+    --text-base-size: 1em;
+    --text-scale-ratio: 1.2;
+
+    /* type scale */
+    --text-xs: calc(1em / (var(--text-scale-ratio) * var(--text-scale-ratio)));
+    --text-sm: calc(1em / var(--text-scale-ratio));
+    --text-md: calc(1em * var(--text-scale-ratio));
+    --text-lg: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio));
+    --text-xl: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
+    --text-xxl: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
+    --text-xxxl: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
+
+    /* Spacing */
+    --baseline:24px;
+
+    /* Spacing values */
+    --space-sm:calc(var(--baseline)/2);
+    --space-md:var(--baseline);
+    --space-lg:calc(var(--baseline)*2);
+    --space-xl:calc(var(--baseline)*3);
+
+    /*line-height*/
+    --heading-line-height:1.2;
+    --body-line-height:1.4;
+
+    
+}
+
+
+body{
+    font-size: var(--text-base-size);
+    font-family: var(--font-primary);
+    color: var(--black);
+    background: var(--medium-cream);
+}
+
+h1 {
+    font-family: "span", serif;
+    font-size: var(--text-xxxl);
+    font-weight: 600;
+    font-style: normal;
+    color: var(--cream-2);
+    margin-top: var(--space-lg);
+}
+
+@media (max-width: 600px) {
+    .nav_home {
+        font-size: var(--text-sm);
+    }
+}      
+
+p {
+    font-family: helvetica, sans-serif;
+    font-size: var(--text-sm);
+}
+
+.text-mobile-light {
+    font-size: var(--text-md);
+    color: var(--color-text-light)
+}

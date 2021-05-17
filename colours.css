@@ -1,0 +1,64 @@
+:root {
+    /* cream colours; */
+    --cream-1: #FFFCF4; 
+    --cream-2: #f5ead1;
+    --cream-3: #eadfcf;
+    --cream-4: #ded4c0;
+    --cream-5: #c9c1aa;
+    
+    /* greys*/ 
+    --grey-1: #b6b3b3;
+    --grey-2: #8e8c8c;
+    --grey-3: #727272;
+    --grey-4: #5D5D5D;
+    --black: #111111;
+
+    /* sepctrum of greens */
+    --green-1: #c7e337;
+    --green-2: #90af0b;
+    --green-3: #7d9020;
+    --green-4: #657910;
+    --green-5: #546706;
+    --green-6: #3d4a05;
+
+    /* sale colour*/
+    --sale-colour: #FF7E1B;
+
+    /* Background colors*/
+    --background-gradient: radial-gradient(circle at 50% 50%, #d1ea3d, #94e514, #4fbf0d, #199708, #046e11, #014319, #00170e);
+    --background-main: var(--cream-1);
+
+
+    /* typorgraphy color*/
+    --color-text-light: var(--cream-2);
+    --color-text-medium: var(--grey-2);
+    --color-text-dark: var(--grey-4);
+    --color-text-heading: var(--cream);
+    --color-text-subtle: var(--cream); 
+    /* --color-link: var(--color-primary);
+    --color-link-visited: var(--color-primary-dark); */
+
+}
+
+
+.logo {
+    fill: var(--cream-2);
+}
+
+.light_text {
+    color: var(--color-text-light)
+}
+
+.body-text {
+    color: var(--cream-5);
+}
+
+.footer-type {
+    color: var(--grey-4)
+}
+
+.navigation > * {
+    color: var(--color-text-light);
+}
+
+

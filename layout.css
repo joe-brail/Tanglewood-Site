@@ -82,20 +82,20 @@
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    position    : relative;
-    text-align  : center;
+    display         : flex;
+    flex-direction  : column;
+    flex-wrap       : wrap;
+    position        : relative;
+    text-align      : center;
 }
 
 .navigation {
-    display: flex;
-    justify-content: flex-end;
-    top     : 1rem;
-    left    : 1rem;
-    width   : 100%;
-    color   : var(--color-text-light);
+    display         : flex;
+    justify-content : flex-end;
+    top             : 1rem;
+    left            : 1rem;
+    width           : 100%;
+    color           : var(--color-text-light);
 }
 
 .nav_home {
@@ -103,21 +103,24 @@
 }
 
 .nav_nav_icons {
-    margin      : 0.8rem;
-    margin-right: 2rem;
+    display         : flex;
+    flex-direction  : row; 
+    margin          : 0.8rem;
+    margin-right    : 2rem;
 }
+
 
 .icon_size {
-    height  : 2rem;
-    width   : 2rem;
+    height  : 10rem;
+    width   : 10rem;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     .icon_size {
         height  : 1.2rem;
         width   : 1.2rem;
     }
-}
+} */
 
 .guitar_image {
     position: relative;

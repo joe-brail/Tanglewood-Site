@@ -12,15 +12,16 @@
 
 .welcome {
     grid-area: welcome;
-    background-image: url(Guitar_images/G1_front.png), url(images/landingacoustic.png);
-    background-position: center, right;
-    background-repeat: no-repeat, no-repeat;
-    background-size: contain, cover;
-    display: flex;
-    flex-direction: column; 
-    text-align: center;
-    justify-content: space-between;      
+    background-image:  url(images/landingacoustic.png);
+    background-position:  right;
+    background-repeat:  no-repeat;
+    background-size:  cover;
+    text-align: center   
 }
+
+/* .welcome_guitar {
+    background-image: url(Guitar_images/G1_front.png);
+} */
 
 .welcome_container {
     display: flex;
@@ -29,11 +30,11 @@
     flex-direction: column;
     justify-content: space-between;
     padding-left: 2rem;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 
 .welcome_container h1 {
-    padding-bottom: 5rem;
+    padding-bottom: 0.5rem;
 }
  
 .featureseries {
@@ -111,8 +112,8 @@
 
 
 .icon_size {
-    height  : 10rem;
-    width   : 10rem;
+    height  : 3rem;
+    width   : 3rem;
 }
 
 /* @media (max-width: 600px) {

@@ -51,18 +51,30 @@ h1 {
     margin-top: var(--space-lg);
 }
 
-@media (max-width: 600px) {
-    .nav_home {
-        font-size: var(--text-sm);
-    }
-}      
+   
 
 p {
     font-family: helvetica, sans-serif;
-    font-size: var(--text-sm);
 }
 
 .text-mobile-light {
     font-size: var(--text-md);
     color: var(--color-text-light)
+}
+
+.paragraph_small {
+    font-size: var(--text-sm);
+    text-align: left;
+}
+
+.paragraph_medium {
+    font-size: var(--text-md);
+    text-align: left;
+    letter-spacing: 0.5px;
+    line-height: 2rem;
+}
+
+.paragraph_large {
+    font-size: var(--text-lg);
+    text-align: left;
 }

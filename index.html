@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="layout.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="components.css">
+    <link rel="stylesheet" href="menu.css">
 </head>
 
 
@@ -19,37 +20,53 @@
 
         <div class="welcome welcome_container">
 
+            <img src="guitar_images/G1_front.png" alt="Guitar" height=92%>
+
             <div class="navigation cluster">
 
                 <div class="nav_nav_icons">
                     <ul class="cluster">
-                        <li><a class="logo icon_size" href="#">
-                        <svg id="search" xmlns="http://www.w3.org/2000/svg" width="18.899" height="18.899" viewBox="0 0 18.899 18.899">
+                        <li><a class="logo" href="#">
+                        <svg class="icon_size" id="search" xmlns="http://www.w3.org/2000/svg" width="18.899" height="18.899" viewBox="0 0 18.899 18.899">
                             <path id="search-2" data-name="search" d="M18.319,14.433a8,8,0,1,0-1.412,1.412l.042.045,4.243,4.243a1,1,0,0,0,1.414-1.414l-4.243-4.243Zm-2.076-9.15a6,6,0,1,1-8.485,0A6,6,0,0,1,16.243,5.283Z" transform="translate(-4 -1.525)" fill-rule="evenodd"/>
                           </svg>
-                          </a></li>
-                        <li><a class="logo icon_size" href="#">
-                            <svg id="shopping-cart" xmlns="http://www.w3.org/2000/svg" width="21.531" height="20" viewBox="0 0 21.531 20">
+                        </a></li>
+                        <li><a class="logo" href="#">
+                            <svg class="icon_size" id="shopping-cart" xmlns="http://www.w3.org/2000/svg" width="21.531" height="20" viewBox="0 0 21.531 20">
                                 <path id="Path_1153" data-name="Path 1153" d="M5.792,2H1V4H4.218L6.987,16.678H7V17H20v-.248l2.193-9.661L22.531,6H6.655l-.57-2.611Zm14.2,6H7.092l1.529,7H18.4Z" transform="translate(-1 -2)" fill-rule="evenodd"/>
                                 <path id="Path_1154" data-name="Path 1154" d="M10,22a2,2,0,1,0-2-2A2,2,0,0,0,10,22Z" transform="translate(-1 -2)"/>
                                 <path id="Path_1155" data-name="Path 1155" d="M19,20a2,2,0,1,1-2-2A2,2,0,0,1,19,20Z" transform="translate(-1 -2)"/>
                             </svg>
                               
                         </a></li>
-                        <li><a class="logo icon_size" href="#">
-                        </svg>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14.064" viewBox="0 0 20 14.064">
+                        <li><a class="logo" href="#">
+                            <svg class="icon_size"viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><title/><g id="about"><path d="M16,16A7,7,0,1,0,9,9,7,7,0,0,0,16,16ZM16,4a5,5,0,1,1-5,5A5,5,0,0,1,16,4Z"/><path d="M17,18H15A11,11,0,0,0,4,29a1,1,0,0,0,1,1H27a1,1,0,0,0,1-1A11,11,0,0,0,17,18ZM6.06,28A9,9,0,0,1,15,20h2a9,9,0,0,1,8.94,8Z"/></g></svg>
+                        </a></li>
+                        <div class="main_menu">
+                        <li><a class="burger logo" href="#">
+                        </svg >
+                            <svg class="icon_size" xmlns="http://www.w3.org/2000/svg" width="20" height="14.064" viewBox="0 0 20 14.064">
                             <g id="menu" opacity="0.885">
-                              <path id="Path_854" data-name="Path 854" d="M2,6A1,1,0,0,1,3,5H21a1,1,0,0,1,0,2H3A1,1,0,0,1,2,6Z" transform="translate(-2 -5)" fill="#f6e9d9"/>
-                              <path id="Path_855" data-name="Path 855" d="M2,12.032a1,1,0,0,1,1-1H21a1,1,0,0,1,0,2H3A1,1,0,0,1,2,12.032Z" transform="translate(-2 -5)" fill="#f6e9d9"/>
-                              <path id="Path_856" data-name="Path 856" d="M3,17.065a1,1,0,0,0,0,2H21a1,1,0,0,0,0-2Z" transform="translate(-2 -5)" fill="#f6e9d9"/>
+                              <path class="line1" id="Path_854" data-name="Path 854" d="M2,6A1,1,0,0,1,3,5H21a1,1,0,0,1,0,2H3A1,1,0,0,1,2,6Z" transform="translate(-2 -5)" fill="#f6e9d9"/>
+                              <path class="line2" id="Path_855" data-name="Path 855" d="M2,12.032a1,1,0,0,1,1-1H21a1,1,0,0,1,0,2H3A1,1,0,0,1,2,12.032Z" transform="translate(-2 -5)" fill="#f6e9d9"/>
+                              <path class="line3" id="Path_856" data-name="Path 856" d="M3,17.065a1,1,0,0,0,0,2H21a1,1,0,0,0,0-2Z" transform="translate(-2 -5)" fill="#f6e9d9"/>
                             </g>
                           </svg>
                         </a></li>
+                            <div class="menu_type">
+                                <ul class="menu_content menu_type">
+                                    <li href="#">Home</li>
+                                    <li href="#">Guitars</li>
+                                    <li href="#">Parts</li>
+                                    <li href="#">About Us</li>
+                                    <li href="#">Contact Support</li>
+                                </ul>
+                            </div>
+                        </div>
                     </ul>
                 </div>
             </div>
-     
+            <script src="app.js"></script>
 
             <div class="welcome_content">
 
@@ -61,20 +78,26 @@
 
                 <div class="homestatement paragraph_medium">
                     <p>Home to the largest collection of Tanglewood acoustic guitars in Northern England</p>
-                    <p>View our <a href="#">Collection</a></p>
+                    <p>View our <a style="text-decoration:underline;" href="#">Collection</a></p>
                 </div>
 
             </div>
-        
-            
-
            
         </div>
 
-        <div class="featureseries light_text">
-            <h1>MASTER DESIGN SERIES</h1>
-            <p>The trusted guitar in the hands of some of your favourite musicians</p>
-            <p>View our <a href="#">Master Design Series</a></p>
+        <div class="featureseries">
+
+            <div class="featureseries_container cluster">
+                <div class="">
+                    <h1>MASTER DESIGN SERIES</h1>
+                </div>
+
+                    <div class="light_text paragraph_medium">
+                        <p>The trusted guitar in the hands of some of your favourite musicians</p>
+
+                        <p>View our <a style="text-decoration:underline;" href="#">Master Design Series</a></p>
+                    </div>
+            </div>
         </div>
 
         <div class="sitespecial">

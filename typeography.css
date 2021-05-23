@@ -55,6 +55,7 @@ h1 {
 
 p {
     font-family: helvetica, sans-serif;
+    font-weight: 80;
 }
 
 .text-mobile-light {
@@ -77,4 +78,13 @@ p {
 .paragraph_large {
     font-size: var(--text-lg);
     text-align: left;
+}
+
+.paragraph_light {
+    color: var(--color-text-light); 
+}
+
+.menu_content li {
+    font-family: "span", serif;
+    font-size: var(--text-lg);
 }

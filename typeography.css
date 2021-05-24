@@ -49,6 +49,7 @@ h1 {
     font-style: normal;
     color: var(--cream-2);
     margin-top: var(--space-lg);
+    text-align: left;
 }
 
    

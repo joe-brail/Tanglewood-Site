@@ -9,7 +9,7 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 90vh;
+    height: 92vh;
     right: 0px;
     background-color: var(--green-3);
     width: 50%;

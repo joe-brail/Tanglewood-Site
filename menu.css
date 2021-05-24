@@ -9,7 +9,7 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 100vh;
+    height: 90vh;
     right: 0px;
     background-color: var(--green-3);
     width: 50%;
@@ -20,7 +20,7 @@ body {
 
 .menu_content a {
     display: block;
-    opacity: 0;
+    /* opacity: 0; */
 }
 
 .menu_active {

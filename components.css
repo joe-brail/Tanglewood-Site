@@ -20,15 +20,6 @@
     box-shadow: -7px 0px 10px 2px rgb(0 0 0 / 20%);
 }
 
-.image_container {
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 2rem;
-    height: 73vh;
-    width: 86%;
-    left: 7%;
-    margin-top: 2rem;
-    box-shadow: 0px 0px 14px 2px rgb(0 0 0 / 20%);
-}
+
 
 

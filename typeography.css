@@ -96,3 +96,13 @@ p {
     font-family: "span", serif;
     font-size: var(--text-lg);
 }
+
+.welcome_content h1 {
+    font-size: var(--text-xxxl);
+    text-transform: uppercase;
+    font-family: helvetica, sans-serif;
+}
+
+.menu_type {
+    font-size: 1rem;
+}

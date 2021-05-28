@@ -6,7 +6,7 @@
     --font-secondary: "span", serif; 
 
     /* set base values */
-    --text-base-size: 1em;
+    --text-base-size: 1.2em;
     --text-scale-ratio: 1.2;
 
     /* type scale */
@@ -45,11 +45,11 @@ body{
 h1 {
     font-family: "span", serif;
     font-size: var(--text-xxxl);
-    font-weight: 600;
+    font-weight: 500;
     font-style: normal;
     color: var(--cream-2);
-    margin-top: var(--space-lg);
     text-align: left;
+    letter-spacing: 3px;
 }
 
 h2 {

@@ -1,10 +1,11 @@
 .landingpage {
     display: grid;
-    grid-template-areas:"welcome"
-                        "featureseries"
-                        "sitespecial"
-                        "footer";
-    grid-template-rows: 100vh 100vh 100vh 30vh ;
+    grid-template-areas:
+        "welcome"
+        "featureseries"
+        "sitespecial"
+        "footer";
+    grid-template-rows: auto;
     grid-template-columns: auto;
 }   
 
@@ -12,7 +13,7 @@
 
 .welcome {
     grid-area               : welcome;
-    background-image        : linear-gradient(1deg, #000000b0, transparent), url(images/landingacoustic.png);
+    background-image        : linear-gradient(127deg, #000000, #00000024), url(images/landingacoustic.png);
     background-position     :  right;
     background-repeat       :  no-repeat;
     background-size         :  cover;
@@ -41,6 +42,7 @@
 .welcome img {
     top         : 1rem;
     padding-top : 8rem;
+    height: 40rem;
 }
 
  
@@ -60,6 +62,7 @@
     flex-direction      : column;
     justify-content     : flex-end;
     width               : 100%;
+    height: 45rem;
 }
 
 .featureseries_container {
@@ -103,10 +106,11 @@
 } */
 
 .front_image {
-    position: relative;
+    position: absolute;
     height: 62vh;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    right: 3rem;
 }
 
 .back_image {
@@ -114,6 +118,8 @@
     height: 45vh;
     padding-top: 6rem;
     padding-bottom: 1rem;
+    margin-left: -2rem;
+    left: 5rem;
 }
 
 .sitespecial_container h1 {
@@ -135,6 +141,8 @@
     margin-right    : auto;
     margin-top      : 1rem;
     margin-bottom   : 1rem;
+    height: 30vh;
+    position: relative;
 }
 
 .footer_icons {
@@ -157,7 +165,7 @@
     display             : flex;
     flex-wrap           : wrap;
     flex-direction      : column;
-
+    height: 43vh;
 }
 
 .footer_bottom h2 {
@@ -191,9 +199,9 @@
     flex-direction  : row;
 }
 
-.cluster > * {
+/* .cluster > * {
     margin: 0.5rem;
-}
+} */
 
 .container {
     display         : flex;
@@ -210,11 +218,11 @@
     width           : 100%;
     color           : var(--color-text-light);
     z-index         : 1;
-    background-color: var(--green-3);
+    justify-content: space-between;
+    /* background-color: var(--green-3); */
 }
 
 .nav_home {
-    position        : absolute;
     text-align      : left;
     left            : 1rem;
     bottom          : 9.5rem;
@@ -228,9 +236,27 @@
     padding-right   : 1rem;
 }
 
-.nav_nav_icons > .cluster {
+.nav_nav_icons ul li:not(:last-child) {
     margin-top      : 0;
     margin-bottom   : 0;
+    padding: 1.5rem;
+}
+
+
+.nav_nav_icons input[type=text] {
+    padding: 6px;
+    background-color: rgba(255, 255, 255, 0.098);
+    text-align: center;
+    border: none;
+    font-family: Helvetica, sans-serif;
+    font-size: var(--text-md);
+    border-radius: 4rem;
+}
+
+.nav_nav_icons button {
+    background-color: transparent;
+    border: none;
+    padding-left: 1rem;
 }
 
 .homestatement {

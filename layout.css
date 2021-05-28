@@ -69,7 +69,6 @@
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 2rem;
     height: 73vh;
-    width: 86%;
     margin-top: 2rem;
     box-shadow: 0px 0px 14px 2px rgb(0 0 0 / 20%);
 }
@@ -125,11 +124,11 @@
     position: relative;
     background-repeat   : no-repeat;
     background-size     : cover;
-    display             : ;
+    display             : relative;
     flex-direction      : column;
     justify-content     : flex-end;
     width               : 100%;
-    height              : 45rem;
+    height              : 56rem;
 }
 
 .featureseries_container {
@@ -138,11 +137,8 @@
     flex-direction: column;
     position: absolute;
     justify-content: space-between;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-bottom: 2rem;
-    top: 14rem;
-    left: 14rem; 
+    top: 19rem;
+    left: 18rem; 
 }
 
 .sitespecial {
@@ -152,7 +148,8 @@
     display             : flex;
     flex-direction      : column;
     text-align          : center;
-    justify-content     : center;
+    position: relative;
+    height              : 100vh;
 
 }
 
@@ -160,27 +157,47 @@
     display         : flex;
     flex-wrap       : wrap;
     align-items     : flex-start;
+    position        : absolute;
     flex-direction  : column;
     justify-content : space-between;
-    padding-left    : 2rem;
-    padding-right   : 2rem;
-    padding-bottom  : 2rem;
-    height          : 100vh;
+    left: 18rem;
+    top: 15rem;
 }
 
-/* .sitespecial_container img {
-    margin-top  : 2rem;
-    margin-bottom: 2rem;
-    margin-left : auto;
-    margin-right: auto;
-} */
+.sitespecial .image_container {
+    position: absolute;
+    width: 40%;
+    right: 5rem;
+    top: 3rem;
+    height: 84vh;
+}
+
+.sitespecial_container h1 {
+    font-family: helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 10rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 11px;
+    color: var(--sale-colour);
+    
+}
+
+.sitespecial .image_container div {
+    position: absolute;
+    bottom: 3rem;
+    left: 5rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 0.5rem;
+}
 
 .front_image {
     position: absolute;
-    height: 62vh;
+    height: 64vh;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    right: 3rem;
+    right: 7rem;
 }
 
 .back_image {
@@ -189,13 +206,7 @@
     padding-top: 6rem;
     padding-bottom: 1rem;
     margin-left: -2rem;
-    left: 5rem;
-}
-
-.sitespecial_container h1 {
-    left            : 1rem;
-    margin-top      : 1rem;
-    margin-bottom   : 1rem;
+    left: 15rem;
 }
 
 .footer {

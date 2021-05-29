@@ -1,0 +1,54 @@
+.heritage_series {
+    display: flex;
+    flex-direction: wrap;
+    flex-direction: column;
+    position: relative;
+}
+
+.series_right_upper {
+    background-image    : radial-gradient(circle at 50% 50%, #d1ea3d, #94e514, #4fbf0d, #199708, #046e11, #014319, #00170e);
+    background-position: right;
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+}
+
+.series_image_main {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 2rem;
+    height: 74vh;
+    width: 36rem;
+    top: 10rem;
+    left: 14rem;
+}
+
+.series_brief_info {
+    display: flex;
+    align-content: baseline;
+    flex-direction: column;
+    width: 33%;
+    right: 9rem;
+    top: 10rem;
+    position: absolute;
+    height: auto;
+    text-align: right;
+}
+
+.compare {
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+    width: inherit;
+    position: relative;
+    margin-left: 0;
+}
+
+.compare svg {
+    fill: var(--cream-2);
+    color: var(--cream-2);
+}

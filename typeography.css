@@ -78,7 +78,6 @@ p {
 
 .paragraph_medium {
     font-size: var(--text-md);
-    text-align: left;
     letter-spacing: 0.5px;
     line-height: 2rem;
 }
@@ -105,4 +104,36 @@ p {
 
 .menu_type {
     font-size: 1rem;
+}
+
+.product_para {
+    font-family: var(--font-primary);
+    font-size: var(--text-md);
+    color: var(--cream-2);
+    text-align: justify;
+}
+
+.product_title {
+    font-family: var(--font-secondary);
+    font-size: var(--text-xxxl);
+    color: var(--cream-2);
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+.model_large {
+    font-family: var(--font-primary);
+    font-size: var(--text-xxl);
+    color: var(--cream-2);
+}
+
+.model_small {
+    font-family: var(--font-primary);
+    font-size: var(--text-md);
+    color: var(--grey-4);
+}
+
+.price_large {
+    font-family: var(--font-secondary);
+    font-size: var(--text-xxxl);
 }

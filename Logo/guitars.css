@@ -1,0 +1,24 @@
+.heritage_series {
+    display: flex;
+    flex-direction: wrap;
+    flex-direction: column;
+    position: relative;
+}
+
+.series_right_upper {
+    background-image    : radial-gradient(circle at 50% 50%, #d1ea3d, #94e514, #4fbf0d, #199708, #046e11, #014319, #00170e);
+    background-position: right;
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: auto;
+}
+
+.series_image_main {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 2rem;
+    height: 73vh;
+}

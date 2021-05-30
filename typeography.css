@@ -73,7 +73,7 @@ p {
 
 .paragraph_small {
     font-size: var(--text-sm);
-    text-align: left;
+    text-align: center;
 }
 
 .paragraph_medium {

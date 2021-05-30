@@ -6,7 +6,7 @@
 }
 
 .series_right_upper {
-    background-image    : radial-gradient(circle at 50% 50%, #d1ea3d, #94e514, #4fbf0d, #199708, #046e11, #014319, #00170e);
+    background-image    : var(--background-gradient);
     background-position: right;
     background-repeat: none;
     background-size: cover;
@@ -24,7 +24,8 @@
     height: 74vh;
     width: 36rem;
     top: 10rem;
-    left: 14rem;
+    left: 18rem;
+    box-shadow: 0px 0px 14px 2px rgb(0 0 0 / 20%);
 }
 
 .series_brief_info {
@@ -32,7 +33,7 @@
     align-content: baseline;
     flex-direction: column;
     width: 33%;
-    right: 9rem;
+    right: 10rem;
     top: 10rem;
     position: absolute;
     height: auto;
@@ -46,9 +47,74 @@
     width: inherit;
     position: relative;
     margin-left: 0;
+    align-self: flex-end;
 }
 
 .compare svg {
     fill: var(--cream-2);
     color: var(--cream-2);
+}
+
+.product_front_image {
+    position: absolute;
+    height: 66vh;
+    right: 6rem;
+    top: 2rem;
+}
+
+.product_back_image {
+    position: absolute;
+    height: 51vh;
+    left: 5rem;
+    top: 5rem;
+}
+
+.series_lower {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: var(--cream-1);
+    height: 50vh;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+    height: auto;
+    justify-content: center;
+}
+
+.series_range_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(105 105 105 / 10%);
+    border-radius: 2rem;
+    box-shadow: 0px 0px 14px 0px rgb(0 0 0 / 20%);
+    margin-left: 12rem;
+    margin-right: 13rem;
+}
+
+.series_range_container img {
+    height: 40vh;
+    margin-bottom: 2rem;
+}
+
+.series_guitar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: auto;
+    padding: 4rem;
+}
+
+.series_title_container {
+    display: flex;
+    justify-content: center;
+    color: var(--grey-4);
+}
+
+.hl {
+    border: 0;
+    height: 3px;
+    background: var(--grey-2);
+    width: 50%;
+
 }

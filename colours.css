@@ -48,6 +48,10 @@
     color: var(--color-text-light)
 }
 
+.dark_text {
+    color: var(--grey-4);
+}
+
 .body-text {
     color: var(--cream-5);
 }

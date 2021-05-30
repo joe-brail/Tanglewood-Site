@@ -117,7 +117,7 @@ p {
     font-family: var(--font-secondary);
     font-size: var(--text-xxxl);
     color: var(--cream-2);
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     font-weight: 400;
 }
 

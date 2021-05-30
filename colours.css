@@ -28,7 +28,12 @@
     --background-gradient: radial-gradient(circle at 50% 50%, #d1ea3d, #94e514, #4fbf0d, #199708, #046e11, #014319, #00170e);
     --background-main: var(--cream-1);
 
-
+    /* Button Colors */
+    --button-primary: linear-gradient(180deg, #1fa228, #36a927, #47af27, #57b626, #66bd25, #75c325, #83ca24, #91d024);
+    --button-primary_hover: linear-gradient(0deg, #25be2f, #3fc42e, #53ca2c, #64d02b, #74d62a, #83dc29, #92e128, #a1e728);
+    --button-secondary: linear-gradient(180deg, #1fa228, #36a927, #47af27, #57b626, #66bd25, #75c325, #83ca24, #91d024);
+    --button--secondary-hover: linear-gradient(180deg, #1fa228, #36a927, #47af27, #57b626, #66bd25, #75c325, #83ca24, #91d024);
+ 
     /* typorgraphy color*/
     --color-text-light: var(--cream-2);
     --color-text-medium: var(--grey-2);

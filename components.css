@@ -9,21 +9,26 @@
 
 .btn_primary1 {
     /* background: var(--green-2); */
-    background: linear-gradient(180deg, rgba(147,195,34,1) 0%, rgba(82,253,45,1) 100%);
+    background: var(--button-primary);
     color: var(--cream-2);
 }
 
+.btn_primary1:hover {
+    background: var(--button-primary_hover);
+}
+
 .sale_button {
-    position: relative;
-    top: 8rem;
-    right: -16rem;
+    position: absolute;
+    top: 10rem;
+    right: -1rem;
     background: var(--sale-colour);
     color: var(--cream-2);
-    font-size: var(--text-lg);
+    font-size: var(--text-xxl);
     text-decoration: none;
-    padding: var(--space-sm) var(--space-lg);
+    padding: 2rem 4rem;
     border-radius: 0.8rem;
     box-shadow: -7px 0px 10px 2px rgb(0 0 0 / 20%);
+    z-index: 1;
 }
 
 

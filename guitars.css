@@ -46,6 +46,7 @@
     flex-direction: row;
     height: 3rem;
     width: inherit;
+    color: var(--cream-2);
     position: relative;
     margin-left: 0;
     align-self: inherit;

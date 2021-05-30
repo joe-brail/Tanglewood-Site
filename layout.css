@@ -20,9 +20,6 @@
     text-align              : center;   
 }
 
-/* .welcome_guitar {
-    background-image: url(Guitar_images/G1_front.png);
-} */
 
 .welcome_container {
     grid-area       : welcome;
@@ -57,13 +54,6 @@
     padding-bottom  : 0.5rem;
 }
 
-/* .welcome img {
-    position: absolute;
-    top         : 1rem;
-    right: 2rem;
-    padding-top : 2rem;
-    height: 38rem;
-} */
 
 .image_container {
     position: absolute;
@@ -283,9 +273,6 @@
     flex-direction  : row;
 }
 
-/* .cluster > * {
-    margin: 0.5rem;
-} */
 
 .container {
     display         : flex;
@@ -303,7 +290,7 @@
     color           : var(--color-text-light);
     z-index         : 1;
     justify-content: space-between;
-    /* background-color: var(--green-3); */
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
 }
 
 .nav_home {

@@ -1,11 +1,17 @@
-/* .btn-primary {
-    background: var(--green-2);
-    color: var(--white);
+.btn {
     text-decoration: none;
-    padding: var(--space-md) var(--space-lg);
-    border-radius: 0.4rem;
+    padding: var(--space-sm) var(--space-md);
+    border-radius: 1rem;
+    font-size: var(--text-md);
+    width: 8rem;
+    align-self: inherit;
+}
 
-} */
+.btn_primary1 {
+    /* background: var(--green-2); */
+    background: linear-gradient(180deg, rgba(147,195,34,1) 0%, rgba(82,253,45,1) 100%);
+    color: var(--cream-2);
+}
 
 .sale_button {
     position: relative;

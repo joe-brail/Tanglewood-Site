@@ -17,8 +17,8 @@
     position: relative;
 }
 
-.series_image_main {
-    position: relative;
+.series_image_left {
+    position: absolute;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 2rem;
     height: 74vh;
@@ -28,16 +28,17 @@
     box-shadow: 0px 0px 14px 2px rgb(0 0 0 / 20%);
 }
 
-.series_brief_info {
+.series_brief_info_right {
     display: flex;
     align-content: baseline;
     flex-direction: column;
     width: 33%;
     right: 10rem;
-    top: 10rem;
+    top: 7rem;
     position: absolute;
     height: auto;
     text-align: right;
+    align-items: flex-end;
 }
 
 .compare {
@@ -47,7 +48,7 @@
     width: inherit;
     position: relative;
     margin-left: 0;
-    align-self: flex-end;
+    align-self: inherit;
 }
 
 .compare svg {
@@ -116,5 +117,43 @@
     height: 3px;
     background: var(--grey-2);
     width: 50%;
+}
 
+/* Left aligned guitar product content */
+
+.series_left_upper {
+    background-image    : var(--background-gradient);
+    background-position: right;
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+}
+
+.series_image_right {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 2rem;
+    height: 74vh;
+    width: 36rem;
+    top: 7rem;
+    right: 10rem;
+    position: absolute;
+    box-shadow: 0px 0px 14px 2px rgb(0 0 0 / 20%);
+}
+
+.series_brief_info_left {
+    display: flex;
+    align-content: baseline;
+    flex-direction: column;
+    width: 33%;
+    left: 18rem;
+    top: 4rem;
+    position: absolute;
+    height: auto;
+    text-align: right;
+    align-items: flex-start;
 }

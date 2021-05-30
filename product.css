@@ -1,0 +1,37 @@
+.product_upper {
+    background-image: var(--background-gradient);
+    background-position: right;
+    background-size: cover;
+    display: flex;
+    flex-wrap: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+}
+
+.product_img_container {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 2rem;
+    height: 75vh;
+    width: 40rem;
+    top: 10rem;
+    left: 18rem;
+    box-shadow: 0px 0px 14px 2px rgb(0 0 0 / 20%) ;
+}
+
+.detail_img_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: absolute;
+    height: 9vh;
+    bottom: 2rem;
+    left: 2rem;
+}
+
+.detail_img_container img {
+    height: 100%;
+    width: auto;
+    padding: 3px
+}

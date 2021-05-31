@@ -50,6 +50,7 @@
     position: relative;
     margin-left: 0;
     align-self: inherit;
+    padding: 1rem;
 }
 
 .compare svg {
@@ -111,13 +112,16 @@
     display: flex;
     justify-content: center;
     color: var(--grey-4);
+    margin-bottom: 3rem;
 }
+
 
 .hl {
     border: 0;
     height: 3px;
     background: var(--grey-2);
     width: 50%;
+    margin-top: 5rem;
 }
 
 /* Left aligned guitar product content */

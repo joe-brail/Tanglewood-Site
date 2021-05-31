@@ -5,6 +5,7 @@
     font-size: var(--text-md);
     width: 8rem;
     align-self: inherit;
+    box-shadow: 0px 0px 14px 2px rgb(0 0 0 / 20%) ;
 }
 
 .btn_primary1 {
@@ -15,6 +16,15 @@
 
 .btn_primary1:hover {
     background: var(--button-primary_hover);
+}
+
+.btn_secondary1 {
+    background: var(--button-secondary);
+    color: var(--cream-2);
+}
+
+.btn_secondary1:hover {
+    background: var(--button--secondary-hover);
 }
 
 .sale_button {

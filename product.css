@@ -5,7 +5,7 @@
     display: flex;
     flex-wrap: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 150vh;
     position: relative;
 }
 
@@ -13,14 +13,19 @@
     position: absolute;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 2rem;
-    height: 75vh;
-    width: 40rem;
-    top: 10rem;
+    height: 90vh;
+    width: 40%;
+    top: 20rem;
     left: 18rem;
     box-shadow: 0px 0px 14px 2px rgb(0 0 0 / 20%) ;
 }
 
 .detail_img_container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 1.5rem;
+    align-items: center;
+    align-content: center;
+    align-self: center;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -28,10 +33,73 @@
     height: 9vh;
     bottom: 2rem;
     left: 2rem;
+    padding: 1rem;
 }
 
 .detail_img_container img {
     height: 100%;
     width: auto;
     padding: 3px
+}
+
+.product_info_container {
+    display: inline-flex;
+    flex-direction: column;
+    width: 28%;
+    right: 10rem;
+    top: 10rem;
+    height: auto;
+    position: absolute;
+    text-align: right;
+    align-items: flex-end;
+}
+
+.product_info_container > * {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.share_links {
+    display: flex;
+    flex-direction: row;
+    color: var(--color-text-light);
+    fill: var(--cream-2);
+    height: 3rem;
+    width: auto;
+    padding: 11px;
+    align-items: center;
+    font-size: var(--text-md);
+}
+
+.product_detail_container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 1rem;
+    padding: 0;
+    margin-top: 2rem;
+    box-shadow: 0px 0px 14px 2px rgb(0 0 0 / 20%) ;
+}
+
+.details_title {
+    background-color: green;
+    color: var(--cream-2);
+    text-align: start;
+    justify-content: space-between;
+    height: 1.2rem;
+    width: auto;
+    margin: 0;
+    padding: 1rem;
+}
+.details_list {
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    background-color: var(--cream-1);
+    color: var(--grey-4);
+    padding: 3px;
+}
+
+.details_list li {
+    padding: 7px;
 }

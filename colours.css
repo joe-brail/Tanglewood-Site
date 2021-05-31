@@ -23,19 +23,20 @@
 
     /* sale colour*/
     --sale-colour: #FF7E1B;
-
+ 
     /* Background colors*/
     --background-gradient: radial-gradient(circle at 50% 50%, #d1ea3d, #94e514, #4fbf0d, #199708, #046e11, #014319, #00170e);
     --background-main: var(--cream-1);
+    --background-nav: linear-gradient(180deg, rgba(0,0,0,0.9598389526709121) 0%, rgba(0,0,0,0.8) 20%, rgba(0,0,0,0.6) 40%, rgba(0,0,0,0.4) 60%, rgba(0,0,0,0.20073531121432953) 80%, rgba(0,0,0,0) 100%);
 
     /* Button Colors */
     --button-primary: linear-gradient(180deg, #1fa228, #36a927, #47af27, #57b626, #66bd25, #75c325, #83ca24, #91d024);
     --button-primary_hover: linear-gradient(0deg, #25be2f, #3fc42e, #53ca2c, #64d02b, #74d62a, #83dc29, #92e128, #a1e728);
-    --button-secondary: linear-gradient(180deg, #1fa228, #36a927, #47af27, #57b626, #66bd25, #75c325, #83ca24, #91d024);
-    --button--secondary-hover: linear-gradient(180deg, #1fa228, #36a927, #47af27, #57b626, #66bd25, #75c325, #83ca24, #91d024);
+    --button-secondary: linear-gradient(180deg, #1b8922, #2d8f21, #3c9421, #499a20, #569f1f, #62a41f, #6eaa1e, #7aaf1e);
+    --button--secondary-hover: linear-gradient(0deg, #1b8922, #2d8f21, #3c9421, #499a20, #569f1f, #62a41f, #6eaa1e, #7aaf1e);
  
     /* typorgraphy color*/
-    --color-text-light: var(--cream-2);
+    --color-text-light: var(--cream-2);   
     --color-text-medium: var(--grey-2);
     --color-text-dark: var(--grey-4);
     --color-text-heading: var(--cream);

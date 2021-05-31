@@ -290,7 +290,7 @@
     color           : var(--color-text-light);
     z-index         : 2;
     justify-content: space-between;
-    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+    background: var(--background-nav);
 }
 
 .nav_home {

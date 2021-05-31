@@ -119,6 +119,7 @@ p {
     color: var(--cream-2);
     letter-spacing: 1px;
     font-weight: 400;
+    margin: 0;
 }
 
 .model_large {

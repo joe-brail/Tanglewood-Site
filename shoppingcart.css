@@ -26,15 +26,15 @@
 
 .cart_hl {
     border: 0;
-    height: 3px;
-    background: var(--cream-5);
+    height: 2px;
+    background: var(--cream-2);
     width: 100%;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .cart_items_container {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
@@ -47,12 +47,12 @@
 }
 
 .cart_item_details {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
     position: relative;
     align-items: center;
-    width: 80%;
+    width: 75%;
 }
 
 .purchase_item {

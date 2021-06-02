@@ -120,6 +120,7 @@ p {
     letter-spacing: 1px;
     font-weight: 400;
     margin: 0;
+    text-align: left;
 }
 
 .model_large {

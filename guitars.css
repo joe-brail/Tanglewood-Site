@@ -1,41 +1,42 @@
 .heritage_series {
     display: flex;
-    flex-direction: wrap;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
     position: relative;
+    /* margin-top: 10rem; */
 }
 
 .series_right_upper {
-    background-image    : var(--background-gradient);
+    background-image: var(--background-gradient);
     background-position: right;
     background-repeat: none;
     background-size: cover;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    height: 100vh;
+    flex-direction: row;
     position: relative;
+    justify-content: space-between;
+    padding-top: 13rem;
+    padding-right: 10rem;
+    padding-left: 18rem;
+    padding-bottom: 10rem;
 }
 
 .series_image_left {
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    background-color: rgb(255 255 255 / 9%);
     border-radius: 2rem;
-    height: 74vh;
-    width: 36rem;
-    top: 10rem;
-    left: 18rem;
+    height: fit-content;
+    width: 45%;
     box-shadow: 0px 0px 14px 2px rgb(0 0 0 / 20%);
 }
 
 .series_brief_info_right {
     display: flex;
-    align-content: baseline;
+    align-content: right;
     flex-direction: column;
-    width: 33%;
-    right: 10rem;
-    top: 7rem;
-    position: absolute;
+    width: 45%;
+    position: relative;
     height: auto;
     text-align: right;
     align-items: flex-end;
@@ -59,18 +60,21 @@
 }
 
 .product_front_image {
-    position: absolute;
+    position: relative;
     height: 66vh;
-    right: 6rem;
-    top: 2rem;
+    padding-top: 0rem;
+    padding-left: 7rem;
+    margin: 2rem;
 }
 
 .product_back_image {
     position: absolute;
     height: 51vh;
-    left: 5rem;
-    top: 5rem;
+    padding-top: 2rem;
+    padding-right: 9rem;
+    margin: 2rem;
 }
+
 
 .series_lower {
     display: flex;
@@ -78,10 +82,10 @@
     flex-direction: column;
     background-color: var(--cream-1);
     height: 50vh;
-    margin-bottom: 5rem;
-    margin-top: 3rem;
     height: auto;
     justify-content: center;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 
 .series_range_container {
@@ -121,7 +125,7 @@
     height: 3px;
     background: var(--grey-2);
     width: 50%;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 /* Left aligned guitar product content */
@@ -133,20 +137,21 @@
     background-size: cover;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    height: 100vh;
+    flex-direction: row;
     position: relative;
+    padding-top: 13rem;
+    padding-bottom: 13rem;
+    padding-left: 18rem;
+    padding-right: 10rem;
+    justify-content: space-between;
 }
 
 .series_image_right {
     position: relative;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 2rem;
-    height: 74vh;
-    width: 36rem;
-    top: 7rem;
-    right: 10rem;
-    position: absolute;
+    height: fit-content;
+    width: 45%;
     box-shadow: 0px 0px 14px 2px rgb(0 0 0 / 20%);
 }
 
@@ -154,10 +159,8 @@
     display: flex;
     align-content: baseline;
     flex-direction: column;
-    width: 33%;
-    left: 18rem;
-    top: 4rem;
-    position: absolute;
+    width: 45%;
+    position: relative;
     height: auto;
     text-align: right;
     align-items: flex-start;

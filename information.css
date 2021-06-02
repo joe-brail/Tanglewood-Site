@@ -1,0 +1,36 @@
+.information {
+    background-image:  var(--background-gradient);
+    background-position: right;
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-bottom: 10rem;
+}
+
+.nav2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checkout_nav {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+.checkout_nav > * {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.information .cart_upper {
+    padding-top: 3rem;
+}
+

@@ -1,0 +1,24 @@
+.cart_total_details {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.cart_total_details > * {
+    padding: 5px;
+}
+
+.cart_total_amounts {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.cart_total_amounts > * {
+    padding: 5px;
+}
+
+.checkout .btn {
+    margin: 2rem 0 2rem 0;
+    align-self: flex-end;
+}

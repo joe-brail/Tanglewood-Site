@@ -3,7 +3,7 @@
     padding: var(--space-sm) var(--space-md);
     border-radius: 1rem;
     font-size: var(--text-sm);
-    width: auto;
+    width: fit-content;
     align-self: inherit;
     box-shadow: 0px 0px 14px 2px rgb(0 0 0 / 20%) ;
 }

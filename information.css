@@ -1,4 +1,4 @@
-.information {
+.checkout {
     background-image:  var(--background-gradient);
     background-position: right;
     background-repeat: none;
@@ -31,7 +31,7 @@
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
-.information .cart_upper {
+.checkout .cart_upper {
     padding-top: 3rem;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .details_container > * {
-    margin: 2rem;
+    margin: 3rem;
 }
 
 .your_details_container {

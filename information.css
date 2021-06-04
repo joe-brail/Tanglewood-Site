@@ -31,9 +31,6 @@
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
-.checkout .cart_upper {
-    padding-top: 3rem;
-}
 
 .details_container {
     display: flex;
@@ -42,6 +39,7 @@
     background-color: rgb(255 255 255 / 10%);
     border-radius: 2rem;
     box-shadow: 0px 0px 14px 0px rgb(0 0 0 / 20%);
+    margin: 8rem 0 8rem 0;
 }
 
 .details_container > * {

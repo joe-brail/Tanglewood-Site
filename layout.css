@@ -31,22 +31,17 @@
     justify-content : space-between;
     padding-bottom  : 2rem;
     padding-top     : 6rem;
-    padding-left    : 13rem;
+    padding-left    : 16rem;
     padding-right   : 2rem;
     height: 87vh;
 }
 
 .homestatement {
-    position        : absolute;
-    left            : 15rem;
-    top             : 17rem;
-    width           : 42rem;
-    bottom          : 1rem;
-    padding-right   : 2rem;
-    padding-left    : 2rem;
-    align-content   : flex-start;
+    position: relative;
+    width: 40%;
+    align-content: flex-start;
     text-align: left;
-    color           : var(--color-text-light);
+    color: var(--color-text-light);
 }
 
 .welcome_container h1 {
@@ -56,21 +51,18 @@
 
 
 .image_container {
-    position: absolute;
+    position: relative;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 2rem;
     height: 73vh;
-    margin-top: 2rem;
     box-shadow: 0px 0px 14px 2px rgb(0 0 0 / 20%);
 }
 
 .welcome_container .image_container {
     background-color: transparent;
     box-shadow: none;
-    width: 52%;
+    width: 50%;
     align-self: flex-end;
-    right: 1rem;
-    top:  8rem;
 }
 
 .guitar1 {

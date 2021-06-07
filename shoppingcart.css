@@ -8,8 +8,8 @@
     flex-direction: column;
     flex-wrap: wrap;
     position: relative;
-    padding-left: 20rem;
-    padding-right: 10rem;
+    padding-left: 20%;
+    padding-right: 10%;
 }
 
 .shopping_cart .cart_upper {

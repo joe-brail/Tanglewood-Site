@@ -76,9 +76,9 @@ body {
         display: none;
     }
 
-    .nav_home h1 {
+    /* .nav_home h1 {
         font-size: var(--text-xxl);
-    }
+    } */
 }
 
 
@@ -112,5 +112,22 @@ body {
 
     .cluster {
         margin: 0;
+    }
+}
+
+@media screen and (max-width: 595px) {
+    .nav_home h1 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 389px) {
+    .nav_nav_icons .cluster {
+        padding: 0;
+    
+    }
+
+    .bottom_footer_icons > * {
+        padding: 1rem;
     }
 }

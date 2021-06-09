@@ -1,6 +1,7 @@
 .payment_container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: auto;
 }
 
 .payment_left_container {
@@ -8,7 +9,7 @@
     flex-direction: column;
     align-content: flex-start;
     text-align: left;
-    width: 40%;
+    width: auto;
 }
 
 .payment_right_container {
@@ -16,5 +17,19 @@
     flex-direction: column;
     align-content: flex-start;
     text-align: left;
-    width: 60%;
+    width: auto;
+}
+
+.shipping_info_container {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.shipping_info_container > * {
+    width: auto;
+}
+
+.details_container .cart_hl {
+    margin: 0;
 }

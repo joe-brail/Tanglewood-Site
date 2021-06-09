@@ -66,6 +66,14 @@
     }
 }
 
+@media screen and (max-width: 450px) {
+    .cart_items_container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-radius: 0;
+    }
+}
 
 .cart_img {
     height: 15rem;

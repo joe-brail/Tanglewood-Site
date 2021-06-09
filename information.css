@@ -29,6 +29,13 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 590px) {
+    .nav2 h1 {
+        text-align: center;
+    }
 }
 
 .checkout_nav {
@@ -36,6 +43,17 @@
     flex-direction: row;
     align-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 590px) {
+    .checkout_nav {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .checkout_nav a {
+        font-size: var(--text-sm);
+    }
 }
 
 .checkout_nav > * {
@@ -51,7 +69,7 @@
     border-radius: 2rem;
     box-shadow: 0px 0px 14px 0px rgb(0 0 0 / 20%);
     margin: 8rem 0 8rem 0;
-    width: 80%;
+    width: 100%;
     align-self: center;
 }
 
@@ -70,6 +88,12 @@
 
 .details_container > * {
     margin: 3rem;
+}
+
+@media screen and (max-width: 750px) {
+    .details_container > * {
+        margin: 1.5rem;
+    }
 }
 
 .your_details_container {

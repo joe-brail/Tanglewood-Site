@@ -87,9 +87,9 @@ select {
     height: 2px;
     background: var(--cream-2);
     width: 50%;
-    margin-top: 2rem;
 }
 
 .series_lower .hl {
-    background: var(--grey-1)
+    background: var(--grey-1);
+    
 }

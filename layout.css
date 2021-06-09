@@ -68,14 +68,6 @@
     align-self: flex-end;
 }
 
-@media screen and (max-width: 1100px) {
-    .welcome_container .image_container {
-        align-self: center;
-        width: auto;
-        height: auto;
-    }
-    
-}
 
 .guitar1 {
     position: absolute;
@@ -84,15 +76,7 @@
     height: 62vh;
 }
 
-@media screen and (max-width: 1100px) {
-    .guitar1 {
-        position: relative;
-        padding: 16rem 0 0rem 0;
-        top: 0;
-        right: 0;
-    }
-    
-}
+
 
 .guitar2 {
     position: absolute;
@@ -101,21 +85,6 @@
     height: 54vh;
 }
 
-@media screen and (max-width: 1100px) {
-    .guitar2 {
-        position: relative;
-        padding: 10rem 0 2rem 0;
-        top: 0;
-        right: 0;
-    }
-    
-}
-
-@media screen and (max-width: 750px) {
-    .guitar2 {
-        display: none;
-    }
-}
 
 
 .guitar3 {
@@ -126,11 +95,6 @@
     display: block;
 }
 
-@media screen and (max-width: 1275px) {
-    .guitar3 {
-        display: none;
-    }
-}
 
 .guitar4 {
     position: absolute;
@@ -140,11 +104,7 @@
     display: block;
 }
 
-@media screen and (max-width: 1500px) {
-    .guitar4 {
-        display: none;
-    }
-}
+
 
 .welcome_content {
     margin-left     : 2rem;
@@ -177,24 +137,7 @@
     text-align          : left;
 }
 
-@media screen and (max-width: 1350px){
-    .featureseries_container {
-        align-self: center;
-        padding: 2rem;
-        width: fit-content;
-    }
 
-}
-
-@media screen and (max-width: 1100px){
-    .featureseries_container {
-        align-self: center;
-        padding: 2rem;
-        width: fit-content;
-        left: auto;
-    }
-
-}
 
 .sitespecial {
     grid-area           : sitespecial;
@@ -212,15 +155,7 @@
 
 }
 
-@media screen and (max-width: 1350px){
-    .sitespecial {
-        display: flex;
-        flex-direction: column-reverse;
-        flex-wrap: nowrap;
-        height: auto;
-        padding: 0;
-    }
-}
+
 
 .sitespecial_container {
     display: flex;
@@ -234,14 +169,7 @@
     padding-right: 4rem;
     align-self: center;
 }
-@media screen and (max-width: 1350px){
-    .sitespecial .sitespecial_container {
-        align-self: center;
-        margin-top: 1rem;
-        width: auto;
-        padding: 2rem;
-    }
-}
+
 
 .sitespecial .image_container {
     position: relative;
@@ -254,14 +182,7 @@
     
 }
 
-@media screen and (max-width: 1350px){
-    .sitespecial .image_container {
-        align-self: center;
-        margin-top: 3rem;
-        width: auto;
-        padding: 0 2rem 0 2rem;
-    }
-}
+
 
 .sitespecial_container h1 {
     font-family: helvetica, sans-serif;
@@ -273,23 +194,7 @@
     color: var(--sale-colour);
 }
 
-@media screen and (max-width: 1530px) {
-    .sitespecial_container h1 {
-        font-size: 7.5rem;
-    }
-}
 
-@media screen and (max-width: 750px) {
-    .sitespecial_container h1 {
-        font-size: 7rem;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    .sitespecial_container h1 {
-        font-size: 5rem;
-    }
-}
 
 .sitespecial .image_container div {
     position: absolute;
@@ -317,11 +222,6 @@
     padding: 6rem 2rem 4rem 4rem;
 }
 
-@media screen and (max-width: 750px) {
-    .back_image {
-        display: none;
-    }
-}
 
 .footer {
     grid-area: footer;
@@ -457,7 +357,91 @@
 
 /* MEDIA CHANGES! */
 
+
+@media screen and (max-width: 1530px) {
+    .sitespecial_container h1 {
+        font-size: 7.5rem;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .guitar4 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1350px){
+    .featureseries_container {
+        align-self: center;
+        padding: 2rem;
+        width: fit-content;
+    }
+
+    .sitespecial .image_container {
+        align-self: center;
+        margin-top: 3rem;
+        width: auto;
+        padding: 0 2rem 0 2rem;
+    }
+
+    .sitespecial {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        height: auto;
+        padding: 0;
+    }
+
+
+    .sitespecial .sitespecial_container {
+        align-self: center;
+        margin-top: 1rem;
+        width: auto;
+        padding: 2rem;
+    }
+
+    .sitespecial .image_container {
+        align-self: center;
+        margin-top: 3rem;
+        width: auto;
+        padding: 0 2rem 0 2rem;
+    }
+}
+
+@media screen and (max-width: 1275px) {
+    .guitar3 {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1100px) {
+    .welcome_container .image_container {
+        align-self: center;
+        width: auto;
+        height: auto;
+    }
+
+    .guitar1 {
+        position: relative;
+        padding: 13rem 0 0rem 0;
+        top: 0;
+        right: 0;
+    }
+    
+    .guitar2 {
+        position: relative;
+        padding: 10rem 0 2rem 0;
+        top: 0;
+        right: 0;
+    }
+
+    .featureseries_container {
+        align-self: center;
+        padding: 2rem;
+        width: fit-content;
+        left: auto;
+    }
+
     .welcome_container {
         position: relative;
         display: flex;
@@ -468,8 +452,9 @@
     }
 
     .homestatement {
-        width: auto;
+        width: 65%;
         padding: 2rem;
+        align-self: center;
     }
 
     .image_container {
@@ -477,5 +462,44 @@
         width: auto;
         align-content: center;
     }
-
 }
+
+@media screen and (max-width: 750px) {
+    .homestatement {
+        width: auto;
+    }
+
+    .back_image {
+        padding: 4rem 1rem 4rem 2rem;
+    }
+
+    .sitespecial_container h1 {
+        font-size: 5rem;
+    }
+    .guitar2 {
+        display: none;
+    }
+
+    .sitespecial .image_container {
+        width: 60%;
+    }
+
+    
+}
+
+@media screen and (max-width: 690px) {
+    .back_image {
+        display: none;
+    }
+
+    .sitespecial .image_container img {
+        align-self: center;
+    }
+
+    .sitespecial .image_container {
+        width: auto;
+        padding: 2rem 4rem 2rem 4rem;
+    }
+}
+
+

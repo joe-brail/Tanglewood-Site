@@ -64,13 +64,12 @@ label {
 }
 
 form {
-    margin-bottom: 10px;
     font-family: var(--font-primary);
-    color: var(--grey-1);
+    color: var(--cream-2);
     display: block;
     font-weight: 200;
-    padding: 10px 30px 10px 10px;
     border-radius: 0.5rem;
+    padding-right: 25px;
 }
 
 select {
@@ -89,4 +88,8 @@ select {
     background: var(--cream-2);
     width: 50%;
     margin-top: 2rem;
+}
+
+.series_lower .hl {
+    background: var(--grey-1)
 }

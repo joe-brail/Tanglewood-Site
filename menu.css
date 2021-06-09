@@ -97,6 +97,7 @@ body {
 
     .burger {
         display: block;
+        padding-left: 20px;
     }
 
     .menu_type {

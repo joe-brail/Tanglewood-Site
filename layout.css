@@ -111,6 +111,13 @@
     
 }
 
+@media screen and (max-width: 750px) {
+    .guitar2 {
+        display: none;
+    }
+}
+
+
 .guitar3 {
     position: absolute;
     top: 7rem;
@@ -174,6 +181,17 @@
     .featureseries_container {
         align-self: center;
         padding: 2rem;
+        width: fit-content;
+    }
+
+}
+
+@media screen and (max-width: 1100px){
+    .featureseries_container {
+        align-self: center;
+        padding: 2rem;
+        width: fit-content;
+        left: auto;
     }
 
 }
@@ -205,15 +223,16 @@
 }
 
 .sitespecial_container {
-    display         : flex;
-    flex-wrap       : wrap;
-    align-items     : flex-start;
-    position        : relative;
-    flex-direction  : column;
-    justify-content : space-between;
-    text-align      : left;padding-bottom  : 2rem;
-    padding-top     : 6rem;
-    padding-right   : 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    padding-bottom: 2rem;
+    padding-right: 4rem;
+    align-self: center;
 }
 @media screen and (max-width: 1350px){
     .sitespecial .sitespecial_container {
@@ -226,9 +245,12 @@
 
 .sitespecial .image_container {
     position: relative;
-    width: 45%;
-    height: auto;
-    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: auto;
+    height: fit-content;
+    padding: 2rem;
     
 }
 
@@ -251,35 +273,54 @@
     color: var(--sale-colour);
 }
 
+@media screen and (max-width: 1530px) {
+    .sitespecial_container h1 {
+        font-size: 7.5rem;
+    }
+}
+
 @media screen and (max-width: 750px) {
     .sitespecial_container h1 {
         font-size: 7rem;
     }
 }
 
+@media screen and (max-width: 750px) {
+    .sitespecial_container h1 {
+        font-size: 5rem;
+    }
+}
+
 .sitespecial .image_container div {
     position: absolute;
-    bottom: 3rem;
-    left: 5rem;
+    bottom: 2rem;
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: column;
     line-height: 0.5rem;
+    background-color: rgb(166 216 131 / 24%);
+    border-radius: 2rem;
+    box-shadow: 0px 0px 14px 2px rgb(0 0 0 / 20%);
+    padding: 2rem;
 }
 
 .front_image {
     position: relative;
     height: 70vh;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
+    padding: 2rem 0rem 2rem 0rem;
 
 }
 
 .back_image {
     position: relative;
     height: 45vh;
-    margin-left: -2rem;
-    left: 5rem;
-    top: -9rem;
+    padding: 6rem 2rem 4rem 4rem;
+}
+
+@media screen and (max-width: 750px) {
+    .back_image {
+        display: none;
+    }
 }
 
 .footer {

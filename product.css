@@ -38,6 +38,12 @@
     }
 }
 
+@media screen and (max-width: 750px) {
+    .product_img_container {
+        width: 90%;
+    }
+}
+
 .detail_img_container {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 1.5rem;

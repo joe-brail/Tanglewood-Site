@@ -25,4 +25,8 @@ const navSlide = () => {
 
 }
 
-navSlide ();
+document.addEventListener("DOMContentLoaded", function(event) {
+
+    navSlide ();
+
+});

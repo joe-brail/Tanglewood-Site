@@ -18,11 +18,11 @@ body {
 } */
 
 .main_menu {
-    position: relative;
+    position: absolute;
 }
 
 .menu_type {
-    position: absolute;
+    position: fixed;
     display: flex;
     flex-direction: column;
     align-items: flex-start;

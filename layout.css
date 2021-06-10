@@ -263,7 +263,12 @@
     height              : auto;
     justify-content     : space-between;
     padding             : 0 6rem 2rem 6rem;
-    align-items: center;
+    align-items         : center;
+    text-align          : initial;
+}
+
+.footer_bottom > * {
+    margin: 1rem;
 }
 
 .footer_bottom h2 {
@@ -428,6 +433,13 @@
     }
 }
 
+/* @media screen and (max-width: 1315px) {
+    .footer_bottom {
+        display: flex;
+        flex-direction: column;
+    }
+} */
+
 @media screen and (max-width: 1275px) {
     .guitar3 {
         display: none;
@@ -438,7 +450,7 @@
     .welcome_container .image_container {
         align-self: center;
         height: fit-content;
-        width: 70%;
+        width: 60%;
         background-color: rgba(255, 255, 255, 0.1);
         border-radius: 2rem;
         margin-top: 11rem;

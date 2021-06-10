@@ -12,7 +12,7 @@
     flex-wrap: nowrap;
 }   
 
-/* linear-gradient(1deg, #000000b0, transparent), */
+/* EXPERIMENTAL FORMATTING OF CODE IN THIS FILE... */
 
 .welcome {
     background-image        : linear-gradient(127deg, #000000, #00000024), url(images/landingacoustic.png);
@@ -23,7 +23,6 @@
     display: flex;
     flex-direction: row;
 }
-
 
 .welcome_container {
     position        : relative;
@@ -40,11 +39,11 @@
 }
 
 .homestatement {
-    position: relative;
-    width: 40%;
-    align-content: flex-start;
-    text-align: left;
-    color: var(--color-text-light);
+    position        : relative;
+    width           : 40%;
+    align-content   : flex-start;
+    text-align      : left;
+    color           : var(--color-text-light);
 }
 
 .welcome_container h1 {
@@ -52,59 +51,50 @@
     padding-bottom  : 0.5rem;
 }
 
-
 .image_container {
-    position: relative;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 2rem;
-    height: 73vh;
-    box-shadow: 0px 0px 14px 2px rgb(0 0 0 / 20%);
+    position            : relative;
+    background-color    : rgba(255, 255, 255, 0.1);
+    border-radius       : 2rem;
+    height              : 73vh;
+    box-shadow          : 0px 0px 14px 2px rgb(0 0 0 / 20%);
 }
 
 .welcome_container .image_container {
-    background-color: transparent;
-    box-shadow: none;
-    width: auto;
-    align-self: flex-end;
+    background-color    : transparent;
+    box-shadow          : none;
+    width               : auto;
+    align-self          : flex-end;
 }
-
 
 .guitar1 {
-    position: absolute;
-    top: 3rem;
-    right: 4rem;
-    height: 62vh;
+    position    : absolute;
+    top         : 3rem;
+    right       : 4rem;
+    height      : 62vh;
 }
-
-
 
 .guitar2 {
-    position: absolute;
-    top: 5rem;
-    right: 15rem;
-    height: 54vh;
+    position    : absolute;
+    top         : 5rem;
+    right       : 15rem;
+    height      : 54vh;
 }
-
-
 
 .guitar3 {
-    position: absolute;
-    top: 7rem;
-    right: 26rem;
-    height: 46vh;
-    display: block;
+    position    : absolute;
+    top         : 7rem;
+    right       : 26rem;
+    height      : 46vh;
+    display     : block;
 }
-
 
 .guitar4 {
-    position: absolute;
-    top: 10rem;
-    right: 35rem;
-    height: 36vh;
-    display: block;
+    position    : absolute;
+    top         : 10rem;
+    right       : 35rem;
+    height      : 36vh;
+    display     : block;
 }
-
-
 
 .welcome_content {
     margin-left     : 2rem;
@@ -137,8 +127,6 @@
     text-align          : left;
 }
 
-
-
 .sitespecial {
     grid-area           : sitespecial;
     background-image    : var(--background-gradient);
@@ -152,74 +140,70 @@
     padding-top         : 8rem;
     padding-left        : 18rem;
     padding-right       : 2rem;
-
 }
-
-
 
 .sitespecial_container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    position: relative;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: left;
-    padding-bottom: 2rem;
-    padding-right: 4rem;
-    align-self: center;
+    display         : flex;
+    flex-wrap       : wrap;
+    align-items     : flex-start;
+    position        : relative;
+    flex-direction  : column;
+    justify-content : space-between;
+    text-align      : left;
+    padding-bottom  : 2rem;
+    padding-right   : 4rem;
+    align-self      : center;
 }
 
-
 .sitespecial .image_container {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width: auto;
-    height: fit-content;
-    padding: 2rem;
+    position        : relative;
+    display         : flex;
+    flex-direction  : row;
+    flex-wrap       : nowrap;
+    width           : auto;
+    height          : fit-content;
+    padding         : 2rem;
     
 }
 
 
 
 .sitespecial_container h1 {
-    font-family: helvetica, sans-serif;
-    font-style: oblique;
-    font-size: 10rem;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 11px;
-    color: var(--sale-colour);
+    font-family     : helvetica, sans-serif;
+    font-style      : oblique;
+    font-size       : 10rem;
+    text-transform  : uppercase;
+    font-weight     : 600;
+    letter-spacing  : 11px;
+    color           : var(--sale-colour);
 }
 
 
 
 .sitespecial .image_container div {
-    position: absolute;
-    bottom: 2rem;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    line-height: 0.5rem;
-    background-color: rgb(166 216 131 / 24%);
-    border-radius: 2rem;
-    box-shadow: 0px 0px 14px 2px rgb(0 0 0 / 20%);
-    padding: 2rem;
+    position            : absolute;
+    bottom              : 2rem;
+    display             : flex;
+    flex-wrap           : nowrap;
+    flex-direction      : column;
+    line-height         : 0.5rem;
+    background-color    : rgb(166 216 131 / 24%);
+    border-radius       : 2rem;
+    box-shadow          : 0px 0px 14px 2px rgb(0 0 0 / 20%);
+    padding             : 2rem;
 }
 
 .front_image {
     position: relative;
-    height: 70vh;
-    padding: 2rem 0rem 2rem 0rem;
+    height  : 70vh;
+    padding : 2rem 0rem 2rem 0rem;
 
 }
 
 .back_image {
-    position: relative;
-    height: 45vh;
-    padding: 6rem 2rem 4rem 4rem;
+    position    : relative;
+    height      : 45vh;
+    padding     : 6rem 2rem 4rem 4rem;
 }
 
 
@@ -228,16 +212,16 @@
 }
 
 .footer_upper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    flex-direction: inherit;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    height: auto;
-    position: relative;
+    display         : flex;
+    flex-wrap       : wrap;
+    justify-content : space-between;
+    flex-direction  : inherit;
+    margin-left     : auto;
+    margin-right    : auto;
+    margin-top      : 1rem;
+    margin-bottom   : 1rem;
+    height          : auto;
+    position        : relative;
 }
 
 .footer_icons {
@@ -276,8 +260,8 @@
 }
 
 .footer_bottom h4 {
-    margin-bottom: 0;
-    padding-bottom: 0;
+    margin-bottom   : 0;
+    padding-bottom  : 0;
 }
 
 .bottom_footer_icons {
@@ -293,11 +277,11 @@
 }
 
 .footer_bottom p {
-    font-size: var(--text-sm);
-    text-align: left;
-    font-weight: 100;
-    letter-spacing: 1px;
-    line-height: 25px;
+    font-size       : var(--text-sm);
+    text-align      : left;
+    font-weight     : 100;
+    letter-spacing  : 1px;
+    line-height     : 25px;
     
 }
 
@@ -334,8 +318,8 @@
     width           : 100%;
     color           : var(--color-text-light);
     z-index         : 2;
-    justify-content: space-between;
-    background: var(--background-nav);
+    justify-content : space-between;
+    background      : var(--background-nav);
 }
 
 .nav_home {
@@ -354,25 +338,24 @@
 }
 
 .nav_space {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left    : 2rem;
+    padding-right   : 2rem;
 }
 
-
 .nav_nav_icons input[type=text] {
-    padding: 6px;
-    background-color: rgba(255, 255, 255, 0.098);
-    text-align: center;
-    border: none;
-    font-family: Helvetica, sans-serif;
-    font-size: var(--text-md);
-    border-radius: 4rem;
+    padding             : 6px;
+    background-color    : rgba(255, 255, 255, 0.098);
+    text-align          : center;
+    border              : none;
+    font-family         : Helvetica, sans-serif;
+    font-size           : var(--text-md);
+    border-radius       : 4rem;
 }
 
 .nav_nav_icons button {
     background-color: transparent;
-    border: none;
-    padding-left: 1rem;
+    border          : none;
+    padding-left    : 1rem;
 }
 
 .icon_size {
@@ -381,7 +364,6 @@
 }
 
 /* MEDIA CHANGES! */
-
 
 @media screen and (max-width: 1530px) {
     .sitespecial_container h1 {
@@ -432,13 +414,6 @@
         padding: 0 2rem 0 2rem;
     }
 }
-
-/* @media screen and (max-width: 1315px) {
-    .footer_bottom {
-        display: flex;
-        flex-direction: column;
-    }
-} */
 
 @media screen and (max-width: 1275px) {
     .guitar3 {
@@ -518,13 +493,10 @@
 
     .sitespecial .image_container {
         width: 50%;
-    }
-
-    
+    } 
 }
 
 @media screen and (max-width: 690px) {
-
     .welcome_container .image_container {
         width: 80%
     }

@@ -16,6 +16,9 @@
 
 .btn_primary1:hover {
     background: var(--button-primary_hover);
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--grey-1);
 }
 
 .btn_secondary1 {
@@ -25,6 +28,9 @@
 
 .btn_secondary1:hover {
     background: var(--button--secondary-hover);
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--grey-1);
 }
 
 .sale_button {
@@ -97,4 +103,10 @@ select {
 overflow-x {
     background-color: inherit;
     background: inherit;
+}
+
+::-webkit-scrollbar {
+    background: inherit;
+    border-radius: 3rem;
+    
 }

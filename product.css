@@ -98,7 +98,6 @@
 @media screen and (max-width: 1350px) {
     .product_info_container {
         align-items: center;
-        width: auto;
         padding-top: 5rem;
     }
 }
@@ -134,7 +133,9 @@
 }
 
 .product_detail_container div {
-    border-color: var(--cream-2);
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--grey-1);
 }
 
 @media screen and (max-width: 1350px) {

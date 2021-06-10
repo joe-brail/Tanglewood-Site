@@ -69,7 +69,14 @@
 
 @media screen and (max-width: 1100px) {
     .series_brief_info_right {
-        width: auto;
+        width: 60%;
+        text-align: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .series_brief_info_right {
+        width: 80%;
         text-align: none;
     }
 }
@@ -246,7 +253,14 @@
 
 @media screen and (max-width: 1100px) {
     .series_brief_info_left {
-        width: auto;
+        width: 60%;
+        text-align: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .series_brief_info_left {
+        width: 80%;
         text-align: none;
     }
 }

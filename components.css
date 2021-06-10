@@ -93,3 +93,8 @@ select {
     background: var(--grey-1);
     
 }
+
+overflow-x {
+    background-color: inherit;
+    background: inherit;
+}

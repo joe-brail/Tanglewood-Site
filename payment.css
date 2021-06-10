@@ -1,7 +1,7 @@
 .payment_container {
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 50%;
 }
 
 .payment_left_container {
@@ -23,7 +23,7 @@
 .shipping_info_container {
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 50%;
 }
 
 .shipping_info_container > * {
@@ -32,4 +32,28 @@
 
 .details_container .cart_hl {
     margin: 0;
+}
+
+.cart_upper .details_container {
+    width: 100%;
+}
+
+.payment_lower_container {
+    display: flex;
+    flex-direction: column;
+    width:auto;
+}
+
+@media screen and (max-width: 1100px) {
+    .payment_container {
+        width: auto;
+    }
+
+    .shipping_info_container {
+        width: auto;
+    }
+
+    .details_container .cart_hl {
+        margin: 3rem !important;
+    }
 }

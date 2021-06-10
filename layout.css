@@ -141,7 +141,7 @@
 
 .sitespecial {
     grid-area           : sitespecial;
-    background-image    : radial-gradient(circle at 50% 50%, #d1ea3d, #94e514, #4fbf0d, #199708, #046e11, #014319, #00170e);
+    background-image    : var(--background-gradient);
     background-size     : cover;
     display             : flex;
     flex-direction      : row;
@@ -470,7 +470,7 @@
 
 @media screen and (max-width: 750px) {
     .homestatement {
-        width: auto;
+        width: 80%;
     }
 
     .back_image {
@@ -485,7 +485,7 @@
     }
 
     .sitespecial .image_container {
-        width: 60%;
+        width: 50%;
     }
 
     
@@ -494,7 +494,11 @@
 @media screen and (max-width: 690px) {
 
     .welcome_container .image_container {
-        width: 90%
+        width: 80%
+    }
+
+    .featureseries_container {
+        width: 80%;
     }
 
     .back_image {

@@ -71,7 +71,7 @@
     height: 9vh;
     padding: 1rem;
     margin: 1rem;
-    overflow: scroll;
+    overflow-x: scroll;
 }
 
 .detail_img_container img {
@@ -129,6 +129,12 @@
     margin-top: 2rem;
     width: 88%;
     box-shadow: 0px 0px 14px 2px rgb(0 0 0 / 20%) ;
+    border-color: var(--cream-2);
+
+}
+
+.product_detail_container div {
+    border-color: var(--cream-2);
 }
 
 @media screen and (max-width: 1350px) {
@@ -147,6 +153,7 @@
     width: auto;
     margin: 0;
     padding: 1rem;
+    border-color: var(--cream-2);
 }
 .details_list {
     display: flex;

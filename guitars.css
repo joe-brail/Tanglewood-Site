@@ -130,7 +130,7 @@
     margin-left: 12rem;
     margin-right: 13rem;
     width: 80%;
-    overflow: scroll;
+    overflow-x: scroll;
 }
 
 @media screen and (max-width: 750px){

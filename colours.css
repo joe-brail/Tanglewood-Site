@@ -25,7 +25,7 @@
     --sale-colour: #FF7E1B;
  
     /* Background colors*/
-    --background-gradient: radial-gradient(circle at 50% 50%, #d1ea3d, #94e514, #4fbf0d, #199708, #046e11, #014319, #00170e);
+    --background-gradient: linear-gradient(1deg, #000000b0, transparent), radial-gradient(circle at 50% 50%, #d1ea3d, #94e514, #4fbf0d, #199708, #046e11, #014319, #00170e);
     --background-main: var(--cream-1);
     --background-nav: linear-gradient(180deg, rgba(0,0,0,0.9598389526709121) 0%, rgba(0,0,0,0.8) 20%, rgba(0,0,0,0.6) 40%, rgba(0,0,0,0.4) 60%, rgba(0,0,0,0.20073531121432953) 80%, rgba(0,0,0,0) 100%);
 

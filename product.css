@@ -68,7 +68,7 @@
     flex-wrap: wrap;
     flex-direction: column-reverse;
     position: relative;
-    height: 9vh;
+    height: 12vh;
     padding: 1rem;
     margin: 1rem;
     overflow-x: scroll;
@@ -133,7 +133,7 @@
 }
 
 .product_detail_container div {
-    border-width: 1px;
+    border-width: 0.5px;
     border-style: solid;
     border-color: var(--grey-1);
 }
@@ -146,7 +146,7 @@
 
 
 .details_title {
-    background-color: green;
+    background-color: rgb(59, 130, 29);
     color: var(--cream-2);
     text-align: start;
     justify-content: space-between;
@@ -175,4 +175,12 @@
 
 .product_lower .hl {
     margin-top: 5rem;
+}
+
+.product_img_container .product_front_image {
+    height: 77vh;
+}
+
+.product_img_container .product_back_image {
+    height: 63vh;
 }

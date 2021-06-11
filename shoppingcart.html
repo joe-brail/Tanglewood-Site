@@ -45,17 +45,43 @@
                             </button>
                     </div>
                 </li>
-                <li><a style="display: flex; flex-direction: row; align-items: center;" class="logo nav_space" href="shoppingcart.html" >
+                <li class="dropdown">
+                    <a style="display: flex; flex-direction: row; align-items: center;" class="dropbtn logo nav_space" href="shoppingcart.html" >
                     <svg class="icon_size" id="shopping-cart" xmlns="http://www.w3.org/2000/svg" width="21.531" height="20" viewBox="0 0 21.531 20">
                         <path id="Path_1153" data-name="Path 1153" d="M5.792,2H1V4H4.218L6.987,16.678H7V17H20v-.248l2.193-9.661L22.531,6H6.655l-.57-2.611Zm14.2,6H7.092l1.529,7H18.4Z" transform="translate(-1 -2)" fill-rule="evenodd"/>
                         <path id="Path_1154" data-name="Path 1154" d="M10,22a2,2,0,1,0-2-2A2,2,0,0,0,10,22Z" transform="translate(-1 -2)"/>
                         <path id="Path_1155" data-name="Path 1155" d="M19,20a2,2,0,1,1-2-2A2,2,0,0,1,19,20Z" transform="translate(-1 -2)"/>
                     </svg>
                       <p style="padding-left: 5px;">1</p>
-                </a></li>
-                <li><a class="logo nav_space" href="#">
+                </a>
+                <div class="dropdown_content">
+                    <div class="cart_item_hover">
+                    <img class="cart_img" src="guitar_images/G1_front.png" alt="Guitar">
+                    <div class="purchase_item">
+                        <p1> <a href="product.html">Master Design</a></p1>
+                        <p2>TW1000 GHD E H</p2>
+                        <br>
+                        <p>$1,899</p>
+                        <a href="information.html" class="btn btn_secondary1">Buy Now</a>
+                    </div>
+                    </div>
+
+                </div>
+                </li>
+                <li class="acc_dropdown">
+                    <a class="logo nav_space dropdown" href="#">
                     <svg class="icon_size"viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><title/><g id="about"><path d="M16,16A7,7,0,1,0,9,9,7,7,0,0,0,16,16ZM16,4a5,5,0,1,1-5,5A5,5,0,0,1,16,4Z"/><path d="M17,18H15A11,11,0,0,0,4,29a1,1,0,0,0,1,1H27a1,1,0,0,0,1-1A11,11,0,0,0,17,18ZM6.06,28A9,9,0,0,1,15,20h2a9,9,0,0,1,8.94,8Z"/></g></svg>
-                </a></li>
+                </a>
+                <div class="dropdown_content">
+                        <div class="account_hover">
+                            <p>Already a member?</p>
+                            <a href="#" class="btn btn_secondary1">Sign In</a>
+                            <p>Join the Tanglewood Team</p>
+                            <a href="#" class="btn btn_secondary1">Create Account</a>
+                        </div>
+                    </div>
+                </li>
+                
                 <div class="main_menu">
                 <li class="burger logo">
                 </svg >
@@ -77,6 +103,7 @@
                         </ul>
                     </div>
                 </div>
+
             </ul>
         </div>
     </div>

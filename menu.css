@@ -31,6 +31,11 @@ body {
     text-align: end;
 }
 
+.menu_active .menu_content {
+    left: 6rem;
+    transition: all 0.5s ease-in;
+}
+
 .burger {
     display: none;
     cursor: pointer;

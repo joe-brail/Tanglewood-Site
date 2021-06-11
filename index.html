@@ -31,9 +31,11 @@
             <div class="nav_nav_icons">
                 <ul class="cluster">
                     <li>
-                        <div class="search_container">
+                        <div style="display: flex; flex-direction: row;" class="search_container">
                             <form action="#">
                                 <input  type="text" placeholder="Search..." name="search">
+                                
+                            </form>
                                 <button class="logo" type="submit">   
                                     <i  class="fa fa-search"> 
                                         <svg class="icon_size" id="search" xmlns="http://www.w3.org/2000/svg" width="18.899" height="18.899" viewBox="0 0 18.899 18.899">
@@ -41,17 +43,15 @@
                                           </svg>
                                     </i>
                                 </button>
-                            </form>
-
                         </div>
                     </li>
-                    <li><a class="logo nav_space" href="shoppingcart.html" >
+                    <li><a style="display: flex; flex-direction: row; align-items: center;" class="logo nav_space" href="shoppingcart.html" >
                         <svg class="icon_size" id="shopping-cart" xmlns="http://www.w3.org/2000/svg" width="21.531" height="20" viewBox="0 0 21.531 20">
                             <path id="Path_1153" data-name="Path 1153" d="M5.792,2H1V4H4.218L6.987,16.678H7V17H20v-.248l2.193-9.661L22.531,6H6.655l-.57-2.611Zm14.2,6H7.092l1.529,7H18.4Z" transform="translate(-1 -2)" fill-rule="evenodd"/>
                             <path id="Path_1154" data-name="Path 1154" d="M10,22a2,2,0,1,0-2-2A2,2,0,0,0,10,22Z" transform="translate(-1 -2)"/>
                             <path id="Path_1155" data-name="Path 1155" d="M19,20a2,2,0,1,1-2-2A2,2,0,0,1,19,20Z" transform="translate(-1 -2)"/>
                         </svg>
-                          
+                          <p style="padding-left: 5px;">1</p>
                     </a></li>
                     <li><a class="logo nav_space" href="#">
                         <svg class="icon_size"viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><title/><g id="about"><path d="M16,16A7,7,0,1,0,9,9,7,7,0,0,0,16,16ZM16,4a5,5,0,1,1-5,5A5,5,0,0,1,16,4Z"/><path d="M17,18H15A11,11,0,0,0,4,29a1,1,0,0,0,1,1H27a1,1,0,0,0,1-1A11,11,0,0,0,17,18ZM6.06,28A9,9,0,0,1,15,20h2a9,9,0,0,1,8.94,8Z"/></g></svg>
@@ -85,10 +85,10 @@
         <div class="welcome welcome_container">
             <div class="homestatement paragraph_medium">
                                 <h1>Welcome</h1>
-                                <p>Home to the largest collection of Tanglewood acoustic guitars in Northern England</p>
+                                <p1>Home to the largest collection of Tanglewood acoustic guitars in Northern England</p1>
                                 <p>View our <a style="text-decoration:underline;" href="guitars.html">Collection</a></p><br>
                                 <p>Be the first to find out about Tanglewood news</p>
-                                <p>Sign up to out newsletter <a href="#">HERE</a></p>
+                                <p>Sign up to our newsletter <a href="#">HERE</a></p>
                             </div>
  
             <div class="image_container">
@@ -112,8 +112,10 @@
                     <div class="sitespecial_container">
 
                         <div class="light_text paragraph_medium">  
-                            <h1>Sale!</h1> 
-                            <p>The Tanglewood quality at even greater prices</p>
+                            <h1 class="text_stroke">Sale!</h1> 
+                            <br>
+                            <p style="font-size: var(--text-lg);">The Tanglewood quality at even greater prices</p>
+                            <br>
                             <p>View our <a style="text-decoration: underline;" href="#">sale items</a></p>
                         </div>
 

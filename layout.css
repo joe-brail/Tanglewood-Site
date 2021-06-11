@@ -46,6 +46,17 @@
     color           : var(--color-text-light);
 }
 
+.homestatement h1 {
+    font-size: 5rem;
+}
+
+.homestatement p1 {
+    text-transform: uppercase;
+    font-size: var(--text-md);
+    letter-spacing: 1px;
+    line-height: 2rem;
+}
+
 .welcome_container h1 {
     align-items     : center;
     padding-bottom  : 0.5rem;
@@ -355,7 +366,7 @@
 .nav_nav_icons button {
     background-color: transparent;
     border          : none;
-    padding-left    : 1rem;
+    padding-right   : 3rem;
 }
 
 .icon_size {
@@ -473,6 +484,11 @@
         width: auto;
         align-content: center;
     }
+
+    .footer_bottom {
+        flex-direction: column;
+
+    }
 }
 
 @media screen and (max-width: 750px) {
@@ -516,6 +532,10 @@
     .sitespecial .image_container {
         width: auto;
         padding: 2rem 4rem 2rem 4rem;
+    }
+
+    .footer_bottom {
+        padding: 0 0 2rem 0;
     }
 }
 

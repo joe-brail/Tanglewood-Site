@@ -1,7 +1,7 @@
 .btn {
     text-decoration: none;
     padding: var(--space-sm) var(--space-md);
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     font-size: var(--text-sm);
     width: fit-content;
     align-self: inherit;
@@ -9,7 +9,6 @@
 }
 
 .btn_primary1 {
-    /* background: var(--green-2); */
     background: var(--button-primary);
     color: var(--cream-2);
 }
@@ -109,4 +108,23 @@ overflow-x {
     background: inherit;
     border-radius: 3rem;
     
+}
+
+body {
+    background-color: var(--background-main);
+    margin: 0;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    text-decoration: none;
+}
+
+
+.sitespecial {
+    background-color: var(--background-gradient);
 }

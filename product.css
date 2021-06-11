@@ -14,15 +14,6 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width: 1350px) {
-    .product_upper {
-        display: flex;
-        flex-direction: column;
-        padding: 13rem 0 10rem 0;
-        align-items: center;
-    }
-}
-
 .product_img_container {
     position: relative;
     background-color: rgba(255, 255, 255, 0.1);
@@ -31,31 +22,6 @@
     width: 55%;
     box-shadow: 0px 0px 14px 2px rgb(0 0 0 / 20%) ;
     align-self: center;
-}
-
-@media screen and (max-width: 1350px) {
-    .product_img_container {
-        width: 40%;
-    }
-}
-
-@media screen and (max-width: 975px) {
-    .product_img_container {
-        width: 60%;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    .product_img_container {
-        width: 90%;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .product_img_container {
-        width: 100%;
-        border-radius: 0;
-    }
 }
 
 .detail_img_container {
@@ -95,13 +61,6 @@
     margin: 0;
 }
 
-@media screen and (max-width: 1350px) {
-    .product_info_container {
-        align-items: center;
-        padding-top: 5rem;
-    }
-}
-
 .product_info_container > * {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -137,13 +96,6 @@
     border-style: solid;
     border-color: var(--grey-1);
 }
-
-@media screen and (max-width: 1350px) {
-    .product_detail_container {
-        width: auto;
-    }
-}
-
 
 .details_title {
     background-color: rgb(59, 130, 29);
@@ -183,4 +135,48 @@
 
 .product_img_container .product_back_image {
     height: 63vh;
+}
+
+
+/* Media changes */
+
+@media screen and (max-width: 1350px) {
+    .product_upper {
+        display: flex;
+        flex-direction: column;
+        padding: 13rem 0 10rem 0;
+        align-items: center;
+    }
+
+    .product_img_container {
+        width: 40%;
+    }
+
+    .product_detail_container {
+        width: auto;
+    }
+
+    .product_info_container {
+        align-items: center;
+        padding-top: 5rem;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .product_img_container {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .product_img_container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .product_img_container {
+        width: 100%;
+        border-radius: 0;
+    }
 }

@@ -159,6 +159,7 @@
     .product_info_container {
         align-items: center;
         padding-top: 5rem;
+        width: 90%;
     }
 }
 

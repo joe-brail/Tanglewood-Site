@@ -355,12 +355,12 @@
 
 .nav_nav_icons input[type=text] {
     padding             : 6px;
-    background-color    : rgba(255, 255, 255, 0.098);
+    background-color    : rgba(255, 255, 255, 0.064);
     text-align          : center;
     border              : none;
     font-family         : Helvetica, sans-serif;
     font-size           : var(--text-md);
-    border-radius       : 4rem;
+    border-radius       : 1rem;
 }
 
 .nav_nav_icons button {

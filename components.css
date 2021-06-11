@@ -6,11 +6,15 @@
     width: fit-content;
     align-self: inherit;
     box-shadow: 0px 0px 14px 2px rgb(0 0 0 / 20%) ;
+    border-style: hidden;
+    border-width: 1px;
+    border-color: var(--button-primary);
 }
 
 .btn_primary1 {
     background: var(--button-primary);
     color: var(--cream-2);
+    
 }
 
 .btn_primary1:hover {
@@ -18,11 +22,13 @@
     border-style: solid;
     border-width: 1px;
     border-color: var(--grey-1);
+    
 }
 
 .btn_secondary1 {
     background: var(--button-secondary);
     color: var(--cream-2);
+    
 }
 
 .btn_secondary1:hover {
@@ -127,4 +133,8 @@ a {
 
 .sitespecial {
     background-color: var(--background-gradient);
+}
+
+div#payment_types > * {
+    margin: 0 1rem 0 1rem;
 }

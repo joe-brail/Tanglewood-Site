@@ -82,6 +82,7 @@
     top         : 3rem;
     right       : 4rem;
     height      : 62vh;
+    filter      : drop-shadow(-10px 0px 5px rgba(0, 0, 0, 0.803));
 }
 
 .guitar2 {
@@ -89,6 +90,7 @@
     top         : 5rem;
     right       : 15rem;
     height      : 54vh;
+    filter      : drop-shadow(-10px 0px 5px rgba(0, 0, 0, 0.803));
 }
 
 .guitar3 {
@@ -97,6 +99,7 @@
     right       : 26rem;
     height      : 46vh;
     display     : block;
+    filter      : drop-shadow(-10px 0px 5px rgba(0, 0, 0, 0.803));
 }
 
 .guitar4 {
@@ -105,6 +108,7 @@
     right       : 35rem;
     height      : 36vh;
     display     : block;
+    filter      : drop-shadow(-10px 0px 5px rgba(0, 0, 0, 0.803));
 }
 
 .welcome_content {
@@ -374,6 +378,50 @@
     width   : 2rem;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_content {
+    /* display: block; */
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown:hover .cart_item_hover {
+    transform: scale(1, 1);
+}
+
+.cart_item_hover {
+    display: flex;
+    flex-direction: row;
+    height: 24vh;
+    transform: scale(1, 0);
+    background-color: rgb(255 246 237 / 24%);
+    border-radius: 1rem;
+    box-shadow: 0px 0px 14px 2px rgb(0 0 0 / 65%);
+    padding: 2rem 0 2rem 0;
+    position: absolute;
+    width: auto;
+    right: -6rem;
+    justify-content: space-around;
+}
+
+.dropdown_content .purchase_item {
+    display: flex;
+    flex-direction: column;
+    text-align: initial;
+    align-self: center;
+    letter-spacing: 1px;
+    align-items: flex-end;
+
+}
+
+.purchase_item .btn {
+    align-self: flex-end;
+}
+
 /* MEDIA CHANGES! */
 
 @media screen and (max-width: 1530px) {
@@ -455,6 +503,14 @@
         padding: 4rem 3rem 6rem 0;
         top: 0;
         right: 0;
+    }
+
+    .guitar1 {
+        filter: none;
+    }
+
+    .guitar2 {
+        filter: none;
     }
 
     .featureseries_container {

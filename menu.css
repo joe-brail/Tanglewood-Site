@@ -13,7 +13,7 @@ body {
     left: 0px;
     width: 20rem;
     color: var(--cream-2);
-    /* transition: transform 0.5s ease-in; */
+    transition: transform 0.5s ease-in;
 }
 
 .menu_content a {
@@ -27,7 +27,8 @@ body {
 }
 
 .menu_active {
-    transform: translateX(100%);
+    transform: translateX(0%) !important; 
+    text-align: end;
 }
 
 .burger {

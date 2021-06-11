@@ -390,14 +390,18 @@
 }
 
 .dropdown:hover .cart_item_hover {
-    transform: scale(1, 1);
+    transform: translateY(0%);
+    opacity: 1;
 }
 
 .cart_item_hover {
+    animation-timing-function: ease-in-out;
     display: flex;
     flex-direction: row;
     height: 24vh;
-    transform: scale(1, 0);
+    transform: translateY(-135%);
+    opacity: 0;
+    transition: 0.5s;
     background-color: rgb(255 246 237 / 24%);
     border-radius: 1rem;
     box-shadow: 0px 0px 14px 2px rgb(0 0 0 / 65%);
@@ -420,6 +424,38 @@
 
 .purchase_item .btn {
     align-self: flex-end;
+}
+
+.acc_dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.account_hover {
+    animation-timing-function: ease-in-out;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+    transform: translateY(-135%);
+    opacity: 0;
+    transition: 0.5s;
+    background-color: rgb(255 246 237 / 24%);
+    border-radius: 1rem;
+    box-shadow: 0px 0px 14px 2px rgb(0 0 0 / 65%);
+    padding: 1rem 3rem 1rem 3rem;
+    position: absolute;
+    width: 30vh;
+    right: -6rem;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    margin-top: 1rem;
+}
+
+.acc_dropdown:hover .account_hover {
+    transform: translateY(0%);
+    opacity: 1;
 }
 
 /* MEDIA CHANGES! */
@@ -553,6 +589,10 @@
     .footer_bottom h2 {
         text-align: center;
     }
+
+    .cart_item_hover {
+        right: -20rem;
+    }
 }
 
 @media screen and (max-width: 750px) {
@@ -600,6 +640,10 @@
 
     .footer_bottom {
         padding: 0 0 2rem 0;
+    }
+
+    .sitespecial .image_container div {
+        display: none;
     }
 }
 

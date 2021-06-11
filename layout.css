@@ -489,6 +489,14 @@
         flex-direction: column;
 
     }
+
+    .footer_bottom p {
+        text-align: center;
+    }
+
+    .footer_bottom h2 {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 750px) {

@@ -167,3 +167,8 @@ p {
     color: var(--cream-4);
     font-weight: 100;
 }
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
